@@ -1,3 +1,22 @@
 body {
   font-family: Palatino;
 }
+
+
+#broad-species {
+  display: none;
+}
+
+
+
+#water-birds {
+  display: none;
+}
+
+#prey-birds {
+  display: none;
+}
+
+#song-birds {
+  display: none;
+}

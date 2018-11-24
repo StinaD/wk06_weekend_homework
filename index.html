@@ -12,7 +12,44 @@
       <div id="form-wrapper">
         <div id="form-item">
           <label for="species">Species</label>
-          <input type="text" id="species" required/>
+          <select id="birdSpecies">
+          <!-- <input list="broad-species" type="text" id="species" name="species" required/> -->
+
+          <!-- <option id="broad-species"> -->
+            <option value="" selected="selected"></option>
+            <option value="water_birds">Water birds</option>
+            <option value="birds_of_prey">Birds of prey</option>
+            <option value="song_birds">Song birds</option>
+          <!-- </datalist> -->
+        </select>
+        </div>
+
+        <div id="sub-species">
+          <label for="all-water-birds">Sub-species</label>
+          <input list="all-water-birds" type="text"/>
+          <datalist id="all-water-birds">
+            <option value="Crane">
+            <option value="Curlew">
+            <option value="Gannet">
+          </datalist>
+
+          <label for="all-birds-of-prey" id="prey-birds">Sub-species</label>
+          <input list="all-birds-of-prey" type="text" />
+          <datalist id="all-birds-of-prey">
+            <option value="Owl">
+            <option value="Eagle">
+            <option value="Buzzard">
+            <option value="Peregrine">
+            <option value="Kestrel">
+          </datalist>
+
+          <label for="all-song-birds" id="song-birds">Sub-species</label>
+          <input list="all-song-birds" type="text" />
+          <datalist id="all-song-birds">
+            <option value="Lark">
+            <option value="Pipit">
+            <option value="Shrike">
+          </datalist>
         </div>
 
         <div id="form-item">
